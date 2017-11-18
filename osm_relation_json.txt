@@ -1,0 +1,18 @@
+Carlsbad	2305279
+Chula Vista	111848
+Coronado	2295632	
+Del Mar	2296283
+El Cajon	111855
+Encinitas	2297811
+Escondido	253827
+Imperial Beach	2295633
+La Mesa	111866
+Lemon Grove	2294586
+National City	2295582
+Oceanside	2305280
+Poway	2296284
+San Diego	253832
+San Marcos	111924
+Santee	111925
+Solana Beach	2296285
+Vista	253611
