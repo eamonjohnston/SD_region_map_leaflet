@@ -121,18 +121,15 @@
 		fillOpacity: 0.7
 	    });
 
-    	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-        	layer.bringToFront();
-    	}
-	}
-
-	function resetHighlight(e) {
-    		geojson.resetStyle(e.target);
+    		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        		layer.bringToFront();
+    		}
+		info.update(layer.feature.properties);
 	}
 	
 	var geojson;
 	
-		function resetHighlight(e) {
+	function resetHighlight(e) {
 		geojson.resetStyle(e.target);
 		info.update();
 	}
@@ -181,7 +178,7 @@
 	};
 
 
-legend.addTo(map);
+	legend.addTo(map);
 
 </script>
 
